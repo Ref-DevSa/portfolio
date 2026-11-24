@@ -65,11 +65,11 @@ export const projects = [
     slug: 'riverside',
     name: 'Riverside Community Hub',
     tagline: 'A community centre site with a facilities catalogue and online donations.',
-    kind: 'Team project', // TODO(Refilwe): confirm this is the team project and describe your part
+    kind: 'Group project'
     image: null, // add a screenshot once it's deployed
     problem: 'A community organisation needed one place to show its facilities and accept donations online.',
-    role: 'Team member: facilities catalogue, donation form validation and Supabase integration.',
-    highlights: ['Facilities catalogue with detail pages, loading and error states', 'Validated donation form stored in Supabase'],
+    role: 'Group project. I built and committed the codebase: React + TypeScript setup and routing, the Supabase facilities and donations tables, every page (catalogue, details, donations, 404) and their loading and error states.',
+    highlights: ['Facilities catalogue with detail pages, loading and error states', 'Validated donation form stored in Supabase', '37 commits, from project setup to documentation'],
     stack: ['React', 'TypeScript', 'Vite', 'React Router', 'Supabase'],
     live: null,
     repo: 'https://github.com/Ref-DevSa/riverside-community-hub',
@@ -78,10 +78,10 @@ export const projects = [
     slug: 'pulse',
     name: 'Pulse',
     tagline: 'A live world snapshot: earthquakes and weather from public APIs.',
-    kind: 'Individual build',
+    kind: 'Group project',
     image: null, // add a screenshot once it's deployed
     problem: 'Live data is scattered across many public APIs; Pulse brings earthquakes and weather into one dashboard.',
-    role: 'Solo: API integration, data storage and dashboard UI.',
+    role: 'Group project. I built and committed the data pipeline and dashboard: fetching and transforming USGS earthquake data, the Supabase schema, Open-Meteo weather and the front end.',
     highlights: ['Real-time USGS earthquake and Open-Meteo data', 'Selected snapshots stored in Supabase'],
     stack: ['React', 'JavaScript', 'REST APIs', 'Supabase'],
     live: null,

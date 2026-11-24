@@ -4,14 +4,14 @@
 
 My personal portfolio: who I am, the projects I'm proudest of (starting with my capstone, **Lefa**), my toolkit, and how to reach me.
 
-**Live:** https://portfolio-pi-swart-f8dz5759cz.vercel.app
+**Live:** https://refilwe-segoe.vercel.app
 
 ## What's inside
 
 | Section | What it shows |
 |---|---|
 | **Hero** | Who I am and what I build, with a soft ochre spotlight |
-| **Work** | Capstone first (Lefa), then the team project and my best individual builds. Each has a screenshot, the problem, my role, the stack, and live + GitHub links |
+| **Work** | Capstone first (Lefa), then group projects and my best individual builds. Each has a screenshot, the problem, my role, the stack, and live + GitHub links |
 | **About** | How I work, plus a scroll-traced timeline of my journey (Zaio → Melsoft Academy → shipping real products) |
 | **Skills** | A draggable strip of my toolkit and the grouped list |
 | **Contact** | Email, LinkedIn, GitHub and CV download |
