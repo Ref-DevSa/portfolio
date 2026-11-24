@@ -14,7 +14,7 @@ export const person = {
   email: 'ref.devsa@gmail.com',
   linkedin: 'https://www.linkedin.com/in/refilwe-segoe-08451a13',
   github: 'https://github.com/Ref-DevSa',
-  cv: null, // e.g. '/Refilwe-CV.pdf' (file in /public)
+  cv: '/Refilwe-Segoe-CV.pdf',
 }
 
 export const about = [
