@@ -2,8 +2,8 @@
 // touching the design. Anything set to null is hidden until it's filled in.
 
 export const person = {
-  name: 'Refilwe',
-  initials: 'R',
+  name: 'Refilwe Segoe',
+  initials: 'RS',
   role: 'Full-stack developer',
   // TODO(Refilwe): confirm or rewrite in your own words.
   headline: 'I build calm, trustworthy web apps for everyday South African problems.',

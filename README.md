@@ -1,10 +1,10 @@
-# Refilwe · Portfolio
+# Refilwe Segoe · Portfolio
 
 > I build calm, trustworthy web apps for everyday South African problems.
 
 My personal portfolio: who I am, the projects I'm proudest of (starting with my capstone, **Lefa**), my toolkit, and how to reach me.
 
-**Live:** _link added after the first deploy_
+**Live:** https://portfolio-pi-swart.vercel.app
 
 ## What's inside
 
