@@ -4,7 +4,7 @@
 
 My personal portfolio: who I am, the projects I'm proudest of (starting with my capstone, **Lefa**), my toolkit, and how to reach me.
 
-**Live:** https://portfolio-pi-swart.vercel.app
+**Live:** https://portfolio-pi-swart-f8dz5759cz.vercel.app
 
 ## What's inside
 
