@@ -9,10 +9,10 @@ export const person = {
   headline: 'I build calm, trustworthy web apps for everyday South African problems.',
   intro:
     'From funeral cover that families can actually claim, to a diabetes diary that works on any phone, I like turning messy, high-stakes situations into simple screens people can rely on.',
-  location: 'South Africa',
+  location: 'Pretoria, South Africa',
   lookingFor: 'Looking for a junior full-stack or front-end developer role where I can ship real features and keep learning.',
-  email: null, // e.g. 'name@example.com'
-  linkedin: null, // e.g. 'https://www.linkedin.com/in/your-name'
+  email: 'ref.devsa@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/refilwe-segoe-08451a13',
   github: 'https://github.com/Ref-DevSa',
   cv: null, // e.g. '/Refilwe-CV.pdf' (file in /public)
 }
