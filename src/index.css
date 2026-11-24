@@ -1,0 +1,83 @@
+@import 'tailwindcss';
+
+/* Midnight + ochre. One warm accent on deep ink, no neon gradients. */
+@theme {
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-ink: #0b0f1a; /* page */
+  --color-night: #131a2a; /* cards */
+  --color-dusk: #1a2337; /* raised */
+  --color-line: #22304a; /* hairlines */
+  --color-paper: #e8e4dc; /* text */
+  --color-mist: #8c94a6; /* secondary text */
+  --color-ochre: #d9a441; /* accent */
+  --color-ochre-soft: #e2b866;
+  --color-leaf: #3e8e6e; /* second accent (tags) */
+
+  /* Tokens the copy-pasted Aceternity / Obsidian components expect */
+  --color-background: #131a2a;
+  --color-foreground: #e8e4dc;
+  --color-primary: #d9a441;
+  --color-primary-foreground: #0b0f1a;
+  --color-border: #22304a;
+
+  --animate-flip-char: flip-char var(--flip-duration, 2.2s) var(--flip-delay, 0s) var(--flip-iteration, infinite)
+    cubic-bezier(0.65, 0, 0.35, 1) both;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-ink font-sans text-paper antialiased;
+  }
+  ::selection {
+    @apply bg-ochre text-ink;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-4 outline-ochre;
+  }
+  * {
+    border-color: var(--color-line);
+  }
+}
+
+/* Film grain over everything: kills the flat "generated" look. */
+.grain::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Obsidian FlipText ships without its keyframes; this is our version. */
+.flip-char {
+  animation: var(--animate-flip-char);
+  transform-origin: 50% 55%;
+}
+@keyframes flip-char {
+  0%,
+  55% {
+    transform: rotateX(0deg);
+  }
+  75%,
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .flip-char {
+    animation: none;
+  }
+}
