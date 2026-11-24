@@ -65,7 +65,7 @@ export const projects = [
     slug: 'riverside',
     name: 'Riverside Community Hub',
     tagline: 'A community centre site with a facilities catalogue and online donations.',
-    kind: 'Group project'
+    kind: 'Group project',
     image: null, // add a screenshot once it's deployed
     problem: 'A community organisation needed one place to show its facilities and accept donations online.',
     role: 'Group project. I built and committed the codebase: React + TypeScript setup and routing, the Supabase facilities and donations tables, every page (catalogue, details, donations, 404) and their loading and error states.',
