@@ -35,9 +35,10 @@ export const projects = [
       'South Africans hold 17 million funeral policies, yet billions in benefits go unclaimed and 8.7 million policies lapsed in 2025. Families often don’t know which policies exist or how to claim in time for a funeral.',
     role: 'Solo: product, database design, API, front end, tests and deployment.',
     highlights: [
-      'Row Level Security: each family sees only its own policies, proven by 115 database tests',
-      'Role-based access (member / broker / admin) that users can’t grant themselves',
-      'Vault totals in exact cents, next-debit reminder and lapse warnings',
+      'The unlock: a nominee can’t see a single policy until a broker verifies the death, then the vault opens and claims start in one step',
+      'Broker dashboard: verify death reports against the certificate and move every claim through a logged pipeline',
+      'Privacy enforced in the database with Row Level Security, proven by 115 database tests (plus 103 API and 199 front-end)',
+      'Family vault: policies, private claim documents, next debit date and lapse warnings',
     ],
     stack: ['React 19', 'Tailwind 4', 'TanStack Query', 'Express 5', 'Supabase', 'PostgreSQL', 'Jest', 'GitHub Actions'],
     live: 'https://lefa-nine.vercel.app',
