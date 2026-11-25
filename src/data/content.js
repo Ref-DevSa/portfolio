@@ -35,7 +35,7 @@ export const projects = [
       'South Africans hold 17 million funeral policies, yet billions in benefits go unclaimed and 8.7 million policies lapsed in 2025. Families often don’t know which policies exist or how to claim in time for a funeral.',
     role: 'Solo: product, database design, API, front end, tests and deployment.',
     highlights: [
-      'Row Level Security: each family sees only its own policies, proven by 34 database tests',
+      'Row Level Security: each family sees only its own policies, proven by 115 database tests',
       'Role-based access (member / broker / admin) that users can’t grant themselves',
       'Vault totals in exact cents, next-debit reminder and lapse warnings',
     ],
